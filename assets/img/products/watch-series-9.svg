@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" role="img" aria-label="Apple Watch Series 9">
+  <defs>
+    <linearGradient id="strapA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b3444"/>
+      <stop offset="1" stop-color="#141a24"/>
+    </linearGradient>
+    <linearGradient id="caseA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7edf7"/>
+      <stop offset="0.5" stop-color="#aebbd0"/>
+      <stop offset="1" stop-color="#7d8ca5"/>
+    </linearGradient>
+    <linearGradient id="screenA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#13294f"/>
+    </linearGradient>
+    <linearGradient id="goldA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7c948"/>
+      <stop offset="1" stop-color="#c99b16"/>
+    </linearGradient>
+  </defs>
+  <rect x="76" y="6" width="48" height="60" rx="16" fill="url(#strapA)"/>
+  <rect x="76" y="194" width="48" height="60" rx="16" fill="url(#strapA)"/>
+  <rect x="84" y="150" width="32" height="48" rx="10" fill="#1a2230" opacity=".55"/>
+  <rect x="56" y="52" width="88" height="156" rx="34" fill="url(#caseA)"/>
+  <rect x="63" y="59" width="74" height="142" rx="29" fill="#0a101c"/>
+  <rect x="69" y="65" width="62" height="130" rx="24" fill="url(#screenA)"/>
+  <circle cx="100" cy="126" r="23" fill="none" stroke="url(#goldA)" stroke-width="3" opacity=".9"/>
+  <path d="M100 108v18l12 8" fill="none" stroke="#f7c948" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="160" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.4" fill="#dbe6f7">SERIES 9</text>
+  <circle cx="100" cy="176" r="2" fill="#f7c948"/>
+  <rect x="143" y="98" width="7" height="26" rx="3.5" fill="#8b98ad"/>
+  <rect x="143" y="132" width="7" height="14" rx="3.5" fill="#8b98ad"/>
+  <path d="M56 92h-6a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h6" fill="none" stroke="#8b98ad" stroke-width="4"/>
+</svg>

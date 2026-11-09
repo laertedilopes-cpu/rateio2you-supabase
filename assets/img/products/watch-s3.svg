@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" role="img" aria-label="Xiaomi Watch S3">
+  <defs>
+    <linearGradient id="strapC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a5568"/>
+      <stop offset="1" stop-color="#232b38"/>
+    </linearGradient>
+    <linearGradient id="caseC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2f8"/>
+      <stop offset="0.55" stop-color="#b6c1d2"/>
+      <stop offset="1" stop-color="#7f8ca1"/>
+    </linearGradient>
+    <radialGradient id="screenC" cx="0.35" cy="0.25" r="0.95">
+      <stop offset="0" stop-color="#243a63"/>
+      <stop offset="1" stop-color="#080d16"/>
+    </radialGradient>
+    <linearGradient id="orangeC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9d4d"/>
+      <stop offset="1" stop-color="#e06b1a"/>
+    </linearGradient>
+  </defs>
+  <rect x="79" y="8" width="42" height="58" rx="13" fill="url(#strapC)"/>
+  <rect x="79" y="194" width="42" height="58" rx="13" fill="url(#strapC)"/>
+  <rect x="81" y="150" width="38" height="52" rx="9" fill="#232b38" opacity=".55"/>
+  <rect x="50" y="54" width="100" height="152" rx="40" fill="url(#caseC)"/>
+  <rect x="57" y="61" width="86" height="138" rx="34" fill="#0a101c"/>
+  <rect x="63" y="67" width="74" height="126" rx="29" fill="url(#screenC)"/>
+  <circle cx="100" cy="122" r="26" fill="none" stroke="url(#orangeC)" stroke-width="4" stroke-linecap="round" stroke-dasharray="110 52" transform="rotate(-90 100 122)"/>
+  <path d="M100 103v20l13 8" fill="none" stroke="#ffb066" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="158" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.4" fill="#f4f7fc">WATCH S3</text>
+  <circle cx="100" cy="173" r="2" fill="#ff9d4d"/>
+  <rect x="150" y="108" width="8" height="18" rx="4" fill="#8b98ad"/>
+  <rect x="150" y="132" width="8" height="12" rx="4" fill="#8b98ad"/>
+  <path d="M50 106h-5a5 5 0 0 0-5 5v12a5 5 0 0 0 5 5h5" fill="none" stroke="#8b98ad" stroke-width="4"/>
+</svg>

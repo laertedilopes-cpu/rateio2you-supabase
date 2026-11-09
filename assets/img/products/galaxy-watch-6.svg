@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" role="img" aria-label="Samsung Galaxy Watch 6">
+  <defs>
+    <linearGradient id="strapB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a4557"/>
+      <stop offset="1" stop-color="#1a2230"/>
+    </linearGradient>
+    <linearGradient id="caseB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbe4f1"/>
+      <stop offset="0.5" stop-color="#9dabc0"/>
+      <stop offset="1" stop-color="#6d7c94"/>
+    </linearGradient>
+    <radialGradient id="screenB" cx="0.35" cy="0.25" r="0.9">
+      <stop offset="0" stop-color="#16305e"/>
+      <stop offset="1" stop-color="#070c17"/>
+    </radialGradient>
+    <linearGradient id="blueB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5580d7"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect x="78" y="8" width="44" height="56" rx="14" fill="url(#strapB)"/>
+  <rect x="78" y="196" width="44" height="56" rx="14" fill="url(#strapB)"/>
+  <rect x="80" y="152" width="40" height="50" rx="9" fill="#1a2230" opacity=".55"/>
+  <circle cx="100" cy="130" r="64" fill="url(#caseB)"/>
+  <circle cx="100" cy="130" r="56" fill="#0a101c"/>
+  <circle cx="100" cy="130" r="50" fill="url(#screenB)"/>
+  <circle cx="100" cy="130" r="42" fill="none" stroke="url(#blueB)" stroke-width="2" opacity=".65"/>
+  <circle cx="100" cy="130" r="34" fill="none" stroke="#5580d7" stroke-width="1.5" stroke-dasharray="3 5" opacity=".55"/>
+  <path d="M100 100v30l18 11" fill="none" stroke="#8fb3ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="130" r="3" fill="#f7c948"/>
+  <text x="100" y="158" text-anchor="middle" font-family="Sora, Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="1.2" fill="#cfe0ff">GALAXY</text>
+  <rect x="160" y="112" width="8" height="20" rx="4" fill="#7d8ca5"/>
+  <rect x="160" y="138" width="8" height="12" rx="4" fill="#7d8ca5"/>
+  <path d="M38 112h-4a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h4" fill="none" stroke="#7d8ca5" stroke-width="4"/>
+</svg>

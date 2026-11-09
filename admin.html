@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Painel do organizador · rateio2you</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="theme-color" content="#0b1b44">
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="assets/fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/admin.css">
+  </head>
+  <body class="admin-body">
+    <div id="admin-app">
+      <div class="admin-loading">
+        <div>
+          <div class="spinner"></div>
+          <p style="margin-top:10px">Abrindo o painel...</p>
+        </div>
+      </div>
+    </div>
+    <div id="admin-modal"></div>
+    <div id="toasts" class="toasts" aria-live="polite" aria-atomic="false"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/supabase-client.js"></script>
+    <script src="assets/js/admin.js"></script>
+  </body>
+</html>
